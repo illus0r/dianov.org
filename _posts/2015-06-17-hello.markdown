@@ -5,4 +5,5 @@ categories: webdev
 published: true
 ---
 
-Только что запустил первый блог на Jekyll и [Github pages](https://pages.github.com/).
+
+Только что запустил первый блог на [Jekyll](http://jekyllrb.com/) и [Github pages](https://pages.github.com/).
