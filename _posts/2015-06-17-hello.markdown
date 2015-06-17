@@ -1,10 +1,8 @@
 ---
 layout: post
 title: ping
-date: {}
-categories: jekyll update
+categories: webdev
 published: true
 ---
 
-
-Только что запустил свой первый блог на Jekyll и [Github pages](https://pages.github.com/).
+Только что запустил первый блог на Jekyll и [Github pages](https://pages.github.com/).
