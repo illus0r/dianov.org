@@ -1,8 +1,8 @@
 # Site settings
 title: Прогулка по рельсу
 email: z@illus0r.net
-baseurl: /dianov.org # the subpath of your site, e.g. /blog/
-url: http://illus0r.github.io/dianov.org # the base hostname & protocol for your site
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: http://dianov.org # the base hostname & protocol for your site
 twitter_username: z_o_r
 github_username:  illus0r
 
