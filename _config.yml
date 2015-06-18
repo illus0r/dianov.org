@@ -10,11 +10,28 @@ github_username:  illus0r
 markdown: kramdown
 
 prose:
-	siteurl: "http://dianov.org"
-    media: "images"
     metadata:
       _posts:
         - name: "layout"
           field:
             element: "hidden"
             value: "post"
+            
+prose:
+  rooturl: "_posts"
+  media: "media"
+  siteurl: "http://dianov.org"
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          element: 'hidden'
+          value: true
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"            
+      - name: "layout"
+      	field:
+          element: "hidden"
+          value: "post"
