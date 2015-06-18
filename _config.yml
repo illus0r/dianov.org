@@ -10,7 +10,7 @@ github_username:  illus0r
 markdown: kramdown
 
 prose:
-  rooturl: "_posts"
+  # rooturl: "_posts"
   media: "media"
   siteurl: "http://dianov.org"
   metadata:
@@ -22,4 +22,8 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "title"            
+          label: "title"
+      - name: "layout"
+        field:
+          element: "text"
+          label: "post"
