@@ -1,6 +1,0 @@
----
-published: true
----
-
-
-asdf
