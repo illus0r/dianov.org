@@ -25,5 +25,5 @@ prose:
           label: "title"
       - name: "layout"
         field:
-          element: "text"
-          label: "post"
+          element: "hidden"
+          value: "post"
