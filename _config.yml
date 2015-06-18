@@ -8,3 +8,13 @@ github_username:  illus0r
 
 # Build settings
 markdown: kramdown
+
+prose:
+	siteurl: "http://dianov.org"
+    media: "images"
+    metadata:
+      _posts:
+        - name: "layout"
+          field:
+            element: "hidden"
+            value: "post"
