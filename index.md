@@ -31,4 +31,4 @@ published: true
 * [netvoxlab.ru](http://netvoxlab.ru)
 * [kruglendar.ru](http://kruglendar.ru)
 
-{% include form.html %}
+{% include _contact_form.html %}
