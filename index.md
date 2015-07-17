@@ -31,4 +31,11 @@ published: true
 * [netvoxlab.ru](http://netvoxlab.ru)
 * [kruglendar.ru](http://kruglendar.ru)
 
+Контакты
+--------
+
++7 905 394-5-394
+ivan@dianov.org
+
+Расскажите о своём проекте или просто отправьте телефон — перезвоню и мы решим, могу ли я быть полезен.
 {% include _contact_form.html %}
