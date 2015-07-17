@@ -23,13 +23,13 @@ published: true
 Мои проекты
 -----------
 
-* [asu34.ru](http://asu34.ru)
-* [localhostel.ru](http://localhostel.ru)
-* [ttkufo.ru](http://ttkufo.ru)
-* [artmirsalon.ru](http://artmirsalon.ru)
-* [Swipe Player](http://https://play.google.com/store/apps/details?id=net.illusor.swipeplayer&hl=ru)
-* [netvoxlab.ru](http://netvoxlab.ru)
-* [kruglendar.ru](http://kruglendar.ru)
+* [Архитектурно-строительное управление](http://asu34.ru) — строительство частных домов в Волгограде и области.
+* [localhostel](http://localhostel.ru) — первый хостел в Волгограде.
+* [ТТК ЮФО](http://ttkufo.ru) — туристическая компания.
+* [Арт мир](http://artmirsalon.ru) — товары для художников.
+* [netvoxlab.ru](http://netvoxlab.ru) — разработка программного обеспечения.
+* [kruglendar.ru](http://kruglendar.ru) — мой проект, круглый календарь.
+* [Swipe Player](http://https://play.google.com/store/apps/details?id=net.illusor.swipeplayer&hl=ru) — жестовый аудиоплеер для андроида. Программист — Никита Кобзев.
 
 Контакты
 --------
