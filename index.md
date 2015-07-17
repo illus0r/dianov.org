@@ -3,6 +3,7 @@ layout: default
 published: true
 ---
 
+
 Приветствую!<br/>
 Я — [Иван Дианов](http://vk.com/illus0r), дизайнер интерфесов и веб-разработчик. 
 
@@ -29,3 +30,5 @@ published: true
 * [Swipe Player](http://https://play.google.com/store/apps/details?id=net.illusor.swipeplayer&hl=ru)
 * [netvoxlab.ru](http://netvoxlab.ru)
 * [kruglendar.ru](http://kruglendar.ru)
+
+{% include form.html %}
