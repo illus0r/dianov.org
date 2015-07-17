@@ -25,10 +25,10 @@ published: true
 Мои проекты
 -----------
 
-[asu34.ru](http://asu34.ru)
-[localhostel.ru](http://localhostel.ru)
-[ttkufo.ru](http://ttkufo.ru)
-[artmirsalon.ru](http://artmirsalon.ru)
-[Swipe Player](http://https://play.google.com/store/apps/details?id=net.illusor.swipeplayer&hl=ru)
-[netvoxlab.ru](http://netvoxlab.ru)
-[kruglendar.ru](http://kruglendar.ru)
+* [asu34.ru](http://asu34.ru)
+* [localhostel.ru](http://localhostel.ru)
+* [ttkufo.ru](http://ttkufo.ru)
+* [artmirsalon.ru](http://artmirsalon.ru)
+* [Swipe Player](http://https://play.google.com/store/apps/details?id=net.illusor.swipeplayer&hl=ru)
+* [netvoxlab.ru](http://netvoxlab.ru)
+* [kruglendar.ru](http://kruglendar.ru)
