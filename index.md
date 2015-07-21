@@ -6,6 +6,7 @@ published: true
 
 
 
+
 Приветствую!<br/>
 Я — Иван Дианов, дизайнер интерфесов и веб-разработчик.
 
@@ -40,4 +41,4 @@ published: true
 [ivan@dianov.org](mailto:ivan@dianov.org)
 </strong>
 
-{% include _contact_form.html %}
+{% include contact_form.html %}
