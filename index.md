@@ -7,6 +7,7 @@ published: true
 
 
 
+
 Приветствую!<br/>
 Я — Иван Дианов, дизайнер интерфесов и веб-разработчик.
 
@@ -37,7 +38,7 @@ published: true
 Контакты
 --------
 <strong>
-+7 905 394-5-394<br/>
++7 905 394 5 394<br/>
 [ivan@dianov.org](mailto:ivan@dianov.org)
 </strong>
 
