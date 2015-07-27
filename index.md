@@ -4,6 +4,7 @@ published: true
 ---
 
 
+
 Разработка и поддержка сайтов компаний
 ======================================
 
@@ -45,6 +46,5 @@ published: true
 [**+7 905 394-5-394**](tel:+79053945394)
 </div>
 <div class="email" markdown="1">
-**[ivan@dianov.org](mailto:ivan@dianov.org)**
+**[{{ site.email }}](mailto:{{ site.email }})**
 </div>
-
