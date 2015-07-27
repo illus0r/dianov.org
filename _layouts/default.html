@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
   <body>
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="wrapper">
+      <div class="header">
+        {% include header.html %}
+      </div>
+      <div class="page-content">
         {{ content }}
       </div>
-    </div>
+      <!--{% include footer.html %}-->
+      <!--contact form plays role of footer-->
+      {% include metrika.yandex.html %}
 
-    {% include footer.html %}
-    {% include metrika.yandex.html %}
+    </div>
+    {% include contact_form.html %}
 
   </body>
 

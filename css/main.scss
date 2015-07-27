@@ -2,48 +2,66 @@
 ---
 
 @charset "utf-8";
+@import 'bourbon/bourbon';
+@import 'neat/neat';
 
 
 
-// Our variables
+/*// Our variables*/
 $base-font-family: 'Ubuntu Mono', Helvetica, Arial, sans-serif;
-$base-font-size:   18px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$font-size-base:   18px;
+$font-size-big: $font-size-base * 1.5;
+/*$small-font-size:  $base-font-size * 0.875;*/
+$base-line-height: 1.4;
 
-$spacing-unit:     30px;
+$col-primary: #5E85FA;
+$col-primary-dark: #1F2C88;
+$col-primary-light: #A0D0FE;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$_max-width: 800px;
+$max-width: 100%;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
+$papa-bear: 960px;
+$mama-bear: 915px;
+$baby-bear: 320px;
 
 
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
+/*$spacing-unit:     30px;*/
+
+/*$text-color:       #111;*/
+/*$background-color: #fdfdfd;*/
+/*$brand-color:      #2a7ae2;*/
+
+/*$grey-color:       #828282;*/
+/*$grey-color-light: lighten($grey-color, 40%);*/
+/*$grey-color-dark:  darken($grey-color, 25%);*/
+
+/*$on-palm:          600px;*/
+/*$on-laptop:        800px;*/
 
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+/*// Using media queries with like this:*/
+/*// @include media-query($palm) {*/
+/*//     .wrapper {*/
+/*//         padding-right: $spacing-unit / 2;*/
+/*//         padding-left: $spacing-unit / 2;*/
+/*//     }*/
+/*// }*/
+/*@mixin media-query($device) {*/
+    /*@media screen and (max-width: $device) {*/
+        /*@content;*/
+    /*}*/
+/*}*/
+
+
+
+/*// Import partials from `sass_dir` (defaults to `_sass`)*/
+/*@import*/
+        /*"base",*/
+        /*"layout",*/
+        /*"syntax-highlighting"*/
+/*;*/
+
+
+@import '_layout';
