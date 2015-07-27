@@ -43,7 +43,7 @@ published: true
 --------
 
 <div class="phone" markdown="1">
-[**+7 905 394-5-394**](tel:+79053945394)
+**+7 905 394-5-394**
 </div>
 <div class="email" markdown="1">
 **[{{ site.email }}](mailto:{{ site.email }})**
