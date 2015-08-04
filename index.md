@@ -6,6 +6,7 @@ published: true
 
 
 
+
 Разработка и поддержка сайтов компаний
 ======================================
 
@@ -35,7 +36,7 @@ published: true
 * [localhostel](http://localhostel.ru) — первый хостел в Волгограде.
 * [ТТК ЮФО](http://ttkufo.ru) — туристическая компания.
 <!--* [Арт мир](http://artmirsalon.ru) — товары для художников.-->
-* [netvoxlab.ru](http://netvoxlab.ru) — разработка программного обеспечения.
+<!--* [netvoxlab.ru](http://netvoxlab.ru) — разработка программного обеспечения.-->
 * [kruglendar.ru](http://kruglendar.ru) — мой проект, круглый календарь.
 * [Swipe Player](http://https://play.google.com/store/apps/details?id=net.illusor.swipeplayer&hl=ru) — жестовый аудиоплеер для андроида. Программист — Никита Кобзев.
 
