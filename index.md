@@ -36,8 +36,8 @@ published: true
 * [Архитектурно-строительное управление](http://146.185.173.250) — строительство частных домов в Волгограде и области.
 * [localhostel](http://localhostel.ru) — первый хостел в Волгограде.
 * [ТТК ЮФО](http://ttkufo.ru) — туристическая компания.
-<!--* [Арт мир](http://artmirsalon.ru) — товары для художников.-->
-<!--* [netvoxlab.ru](http://netvoxlab.ru) — разработка программного обеспечения.-->
+* [Арт мир](http://tasenkbx.bget.ru/) — товары для художников.
+* [netvoxlab.ru](http://netvoxlab.ru) — разработка программного обеспечения.
 * [kruglendar.ru](http://kruglendar.ru) — мой проект, круглый календарь.
 * <a href="http://https://play.google.com/store/apps/details?id=net.illusor.swipeplayer&hl=ru">Swipe Player</a> — жестовый аудиоплеер для андроида. Программист — Никита Кобзев.
 
