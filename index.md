@@ -9,6 +9,7 @@ published: true
 
 
 
+
 Разработка и поддержка сайтов компаний
 ======================================
 
@@ -34,13 +35,13 @@ published: true
 Мои проекты
 -----------
 
-* [Архитектурно-строительное управление](http://146.185.173.250) — строительство частных домов в Волгограде и области.
-* [localhostel](http://localhostel.ru) — первый хостел в Волгограде.
-* [ТТК ЮФО](http://ttkufo.ru) — туристическая компания.
-* [Арт мир](http://tasenkbx.bget.ru/) — товары для художников.
-* [netvoxlab.ru](http://netvoxlab.ru) — разработка программного обеспечения.
-* [kruglendar.ru](http://kruglendar.ru) — мой проект, круглый календарь.
-* <a href="https://play.google.com/store/apps/details?id=net.illusor.swipeplayer&hl=ru">Swipe Player</a> — жестовый аудиоплеер для андроида. Программист — Никита Кобзев.
+* [Архитектурно-строительное управление](http://asu34.ru/){:target="_blank"} — строительство частных домов в Волгограде и области.
+* [localhostel](http://localhostel.ru){:target="_blank"} — первый хостел в Волгограде.
+* [ТТК ЮФО](http://ttkufo.ru){:target="_blank"} — туристическая компания.
+* [Арт мир](http://tasenkbx.bget.ru/){:target="_blank"} — товары для художников.
+* [netvoxlab.ru](http://netvoxlab.ru){:target="_blank"} — разработка программного обеспечения.
+* [kruglendar.ru](http://kruglendar.ru){:target="_blank"} — мой проект, круглый календарь.
+* [Swipe Player](https://play.google.com/store/apps/details?id=net.illusor.swipeplayer&hl=ru){:target="_blank"} — жестовый аудиоплеер для андроида. Программист — Никита Кобзев.
 
 Контакты
 --------
