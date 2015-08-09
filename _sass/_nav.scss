@@ -1,0 +1,17 @@
+nav{
+  margin-top: 2em;
+  li{
+    list-style: none;
+  }
+  a{
+    display: block;
+    margin-bottom: 0.5em;
+    &.active{
+      font-weight: bold;
+    }
+    &:visited{
+      color: $col-primary;
+    }
+  }
+}
+

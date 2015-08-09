@@ -1,0 +1,25 @@
+---
+layout: default
+title: Блог
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Блог</h1>
+
+  <div class="posts">
+    {% for post in site.posts %}
+      <div class="post">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {{ post.excerpt }}
+      </div>
+    {% endfor %}
+  </div>
+
+  <p class="rss-subscribe">Подпишитесь на <a href="{{ "/feed.xml" | prepend: site.baseurl }}">РСС</a></p>
+
+</div>
+

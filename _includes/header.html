@@ -10,9 +10,23 @@
     <div class="email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
   </div>
   <nav>
-    {% for page in site.pages %}
-      {% if page.title %}
-      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+
+    {% for node in site.pages reversed %}
+      {% if node.title %}
+      <!--<a class="page-link" -->
+        <!--{% if page.url == node.url %} -->
+        <!--class="active" -->
+        <!--{% endif %} -->
+        <!--href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>-->
+        {% if page.url == node.url %}
+          <li class="active">
+            <a href="{{node.url}}" class="active">{{node.title}}</a>
+          </li>
+        {% else %}
+          <li>
+            <a href="{{node.url}}">{{node.title}}</a>
+          </li>
+        {% endif %}
       {% endif %}
     {% endfor %}
   </nav>

@@ -1,0 +1,16 @@
+.posts, .post{
+  img{
+    width: 100%;
+  }
+  h2{
+    background: none;
+    margin-bottom: 0;
+  }
+  .post-meta{
+    opacity: 0.2;
+    transition: opacity 0.2s;
+    &:hover{
+      opacity: 1;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 ---
 layout: default
 published: true
+title: Обо мне
 ---
 
 

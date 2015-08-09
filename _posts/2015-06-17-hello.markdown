@@ -1,9 +1,16 @@
 ---
 layout: post
-title: ping
-categories: webdev
+title: hello world
+categories: jekyll
 published: true
 ---
 
 
-Только что запустил первый блог на [Jekyll](http://jekyllrb.com/) и [Github pages](https://pages.github.com/).
+Только что запустил свой первый блог на [Jekyll](http://jekyllrb.com/) и [Github pages](https://pages.github.com/). 
+
+<!--Сделал бы это быстрее, если бы знал о некоторых тонкостях:-->
+
+<!--* По-умолчанию, сайт созданный через `$ jekyll new new-site` не будет корректно отображаться на Github Pages, в настройках надо было поменять:-->
+
+<!--baseurl: /dianov.org  -->
+<!--url: http://illus0r.github.io/dianov.org-->
