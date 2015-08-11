@@ -8,15 +8,15 @@ nav{
     margin-bottom: 0.5em;
     &.active{
       font-weight: bold;
+      &:before{
+      content: "[";
+      }
+      &:after{
+      content: "]";
+      }
     }
     &:visited{
       color: $col-primary;
-    }
-    &:before{
-      content: "[";
-    }
-    &:after{
-      content: "]";
     }
   }
 }
