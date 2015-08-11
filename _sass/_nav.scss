@@ -12,6 +12,11 @@ nav{
     &:visited{
       color: $col-primary;
     }
+    &:before{
+      content: "[";
+    }
+    &:after{
+      content: "]";
+    }
   }
 }
-
