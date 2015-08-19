@@ -42,7 +42,7 @@ title: Обо мне
 * [ТТК ЮФО](http://ttkufo.ru){:target="_blank"} — туристическая компания.
 * [Арт мир](http://tasenkbx.bget.ru/){:target="_blank"} — товары для художников.
 * [netvoxlab.ru](http://netvoxlab.ru){:target="_blank"} — разработка программного обеспечения.
-* [Сайт художницы Дарьи Маликовой](malikovadarya.info){:target="_blank"}
+* [Сайт художницы Дарьи Маликовой](http://malikovadarya.info){:target="_blank"}
 * [kruglendar.ru](http://kruglendar.ru){:target="_blank"} — мой проект, круглый календарь.
 * [Swipe Player](https://play.google.com/store/apps/details?id=net.illusor.swipeplayer&hl=ru){:target="_blank"} — жестовый аудиоплеер для андроида. Программист — Никита Кобзев.
 
