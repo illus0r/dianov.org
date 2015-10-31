@@ -47,4 +47,3 @@ title: Обо мне
 **[{{ site.email }}](mailto:{{ site.email }})**
 </div>
 
-{% include contact_form.html %}
