@@ -12,6 +12,14 @@ excerpt_separator: <!--more-->
 
 permalink: /:categories/:title
 
+defaults:
+  - 
+    scope:
+      type: posts
+    values:
+      categories: blog
+  
+
 prose:
   # rooturl: "_posts"
   media: "media"
