@@ -10,10 +10,7 @@ markdown: kramdown
 
 excerpt_separator: <!--more-->
 
-permalink: none
-categories:
-  post:
-    permalink: /blog/:title
+permalink: /blog/:title
 
 prose:
   # rooturl: "_posts"
