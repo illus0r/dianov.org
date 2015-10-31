@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 published: true
 title: Обо мне
 ---
@@ -46,4 +46,3 @@ title: Обо мне
 <div class="email" markdown="1">
 **[{{ site.email }}](mailto:{{ site.email }})**
 </div>
-
