@@ -22,7 +22,9 @@ defaults:
     scope:
       type: posts
     values:
+      layout: post
       categories: blog
+      published: true
   
 
 prose:

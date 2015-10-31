@@ -1,6 +1,4 @@
 ---
-layout: post
-published: true
 title: Скролл без дырок
 ---
 
