@@ -9,9 +9,6 @@ title: Блог
   <h1 class="page-heading">Блог</h1>
 
   <div class="posts">
-    {% if jekyll.environment == "production" %}
-    I'm on production
-    {% endif %}
     {% for post in site.posts %}
       <div class="post">
         <h2>
