@@ -46,5 +46,3 @@ title: Обо мне
 <div class="email" markdown="1">
 **[{{ site.email }}](mailto:{{ site.email }})**
 </div>
-
-{{ jekyll | jsonify  }}
