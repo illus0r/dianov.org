@@ -12,7 +12,8 @@ Jekyll provides great tool to keep separate folders with customer specific data.
     - .htaccess
     - client1 
 
-note, that is mask, so it matches to all files and folders containing 
+note, that is mask, so it matches to all files and folders containing
+
   client1,
   /client1/,
   /client11/,
