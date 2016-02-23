@@ -4,6 +4,12 @@ title: Making customer specific site versions
 
 Jekyll provides great tool to keep separate folders with customer specific data. You can select one of them withing a single line in a config:
 
+~~~ ruby
+def what?
+  42
+end
+~~~
+
   exclude:
     - _cards/
     - _areas/
