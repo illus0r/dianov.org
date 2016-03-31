@@ -2,6 +2,8 @@
 title: Making customer specific site versions
 ---
 
+UPD: bad approach, don't use it 😶
+
 Jekyll provides great tool to keep separate folders with customer specific data. You can select one of them withing a single line in a config:
 
 ```yml
