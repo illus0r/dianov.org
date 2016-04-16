@@ -7,7 +7,6 @@
 
 
 
-/*// Our variables*/
 $base-font-family: 'Ubuntu Mono', Helvetica, Arial, sans-serif;
 $font-size-base:   18px;
 $font-size-big: $font-size-base * 1.5;
@@ -26,46 +25,10 @@ $mama-bear: 915px;
 $baby-bear: 320px;
 
 
-/*$spacing-unit:     30px;*/
-
-/*$text-color:       #111;*/
-/*$background-color: #fdfdfd;*/
-/*$brand-color:      #2a7ae2;*/
-
-/*$grey-color:       #828282;*/
-/*$grey-color-light: lighten($grey-color, 40%);*/
-/*$grey-color-dark:  darken($grey-color, 25%);*/
-
-/*$on-palm:          600px;*/
-/*$on-laptop:        800px;*/
-
-
-
-/*// Using media queries with like this:*/
-/*// @include media-query($palm) {*/
-/*//     .wrapper {*/
-/*//         padding-right: $spacing-unit / 2;*/
-/*//         padding-left: $spacing-unit / 2;*/
-/*//     }*/
-/*// }*/
-/*@mixin media-query($device) {*/
-    /*@media screen and (max-width: $device) {*/
-        /*@content;*/
-    /*}*/
-/*}*/
-
-
-
-/*// Import partials from `sass_dir` (defaults to `_sass`)*/
-/*@import*/
-        /*"base",*/
-        /*"layout",*/
-        /*"syntax-highlighting"*/
-/*;*/
-
-
-@import '_layout';
-@import '_fullscreen';
-@import '_nav';
-@import '_post';
-@import '_header';
+@import '_layout',
+        '_fullscreen',
+        '_nav',
+        '_post',
+        '_header',
+        'syntax-highlighting'
+;

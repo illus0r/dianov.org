@@ -1,7 +1,6 @@
 # Site settings
 title: Разработка сайтов компаний
 email: ivan@dianov.org
-baseurl: '' # the subpath of your site, e.g. /blog/
 url: http://dianov.org # the base hostname & protocol for your site
 #url: http://localhost:3002 # the base hostname & protocol for your site
 
@@ -11,7 +10,6 @@ highlighter: rouge
 
 excerpt_separator: <!--break-->
 
-permalink: /:categories/:title
 
 defaults:
   - 
@@ -24,7 +22,7 @@ defaults:
       type: posts
     values:
       layout: post
-      categories: blog
+      permalink: /blog/:title/
       published: true
   
 
