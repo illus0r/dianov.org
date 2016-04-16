@@ -1,6 +1,7 @@
 ---
 layout: fullscreen
 published: true
+permalink: /thanks.html
 ---
 
 

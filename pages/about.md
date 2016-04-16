@@ -2,6 +2,7 @@
 layout: default
 published: true
 title: Обо мне
+permalink: /about/
 ---
 
 Разработка и поддержка сайтов компаний
