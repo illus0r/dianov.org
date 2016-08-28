@@ -1,4 +1,6 @@
 ---
+layout: post
+published: false
 title: Блог моей мечты
 permalink: /blog-moej-mechty/
 ---
