@@ -1,4 +1,6 @@
 ---
+layout: post
+published: false
 title: Моя система
 permalink: /sistem/
 tags:
