@@ -15,7 +15,7 @@ title: Блог
           <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
         </h2>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        {{ post.excerpt }}
+        {% include typograph.html content=post.excerpt %}
       </div>
     {% endfor %}
   </div>

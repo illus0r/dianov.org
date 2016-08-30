@@ -2,14 +2,32 @@
  * Syntax highlighting styles
  * https://github.com/richleland/pygments-css
  */
-.highlight {
+
+.highlighter-rouge{
+  font-family: monospace;
+  *{
+    font-family: monospace;
+  }
+}
+code.highlighter-rouge{
+  background-color: #eee;
+  border-radius: 3px;
+  color: black;
+  padding: 2px 8px;
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+.highlight{
   background-color:#3f3f3f;
   border-radius: 3px;
   color:#fdce93;
+  font-size: 0.8em;
   margin-left: 0;
   padding: 5px 20px;
   pre{
     margin: 0;
+  }
+  code{
   }
   .gutter{
     padding-right: 15px;
