@@ -1,8 +1,9 @@
 ---
 layout: post
 published: true
-title: Блог мечты
-permalink: /blog-moej-mechty/
+title: Идеальный движок блога
+permalink: /ideal-blog/
+redirect_from: /blog-moej-mechty/
 ---
 Идеальный блог:
 
