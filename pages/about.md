@@ -20,7 +20,7 @@ permalink: /about/
 <!--* [Plazma Vision](http://pv7.dianov.org/){:target="_blank"} — Реклама на мониторах в местах массового посещения. Сайт в разработке.-->
 * [kruglendar.ru](http://kruglendar.ru){:target="_blank"} — я делаю круглые плакаты-ежедневники.
 * [Архитектурно-строительное управление](http://asu34.ru/){:target="_blank"} — строительство частных домов в Волгограде и области.
-* [localhostel](http://localhostel.ru){:target="_blank"} — первый хостел в Волгограде.
+<!--* [localhostel](http://localhostel.ru){:target="_blank"} — первый хостел в Волгограде.-->
 * [ТТК ЮФО](http://ttkufo.ru){:target="_blank"} — туристическая компания.
 <!--* [Арт мир](http://artmirsalon.ru/){:target="_blank"} — товары для художников.-->
 <!--* [netvoxlab.ru](http://netvoxlab.ru){:target="_blank"} — разработка программного обеспечения.-->
