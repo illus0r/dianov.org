@@ -1,9 +1,18 @@
 {% assign c = include.content %}
-{%assign prepositions="а|в|и|к|о|с|у|я|во|вы|да|до|за|из|ко|мы|на|не|ни|но|ну|об|он|от|ох|по|со|та|те|то|ту|ты|уж|при|или|что|кроме|без|А|В|И|К|О|С|У|Я|Во|Вы|Да|До|За|Из|Ко|Мы|На|Не|Ни|Но|Ну|Об|Он|От|Ох|По|Со|Та|Те|То|Ту|Ты|Уж|При|Или|Что|Кроме|Без" | split:"|" %}
+{% assign prepositions ="а|в|и|к|о|с|у|я|во|вы|да|до|за " 
+      | append: "|из|ко|мы|на|не|ни|но|ну|об|он|от " 
+      | append: "|ох|по|со|та|те|то|ту|ты|уж|при|или " 
+      | append: "|что|кроме|без " 
+      | append: "|А|В|И|К|О|С|У|Я|Во|Вы|Да|До|За " 
+      | append: "|Из|Ко|Мы|На|Не|Ни|Но|Ну|Об|Он|От " 
+      | append: "|Ох|По|Со|Та|Те|То|Ту|Ты|Уж|При|Или " 
+      | append: "|Что|Кроме|Без " 
+      | append: "|and|as|at|but|by|if|in|nor|of|on|or|per|so|to|up|via
+      | append: "|And|As|At|But|By|If|In|Nor|Of|On|Or|Per|So|To|Up|Via" 
+      | split: "|" %}
 {% for preposition in prepositions %}
-  {% assign pattern = preposition | append: ' ' %}
-  {% assign replacement = preposition | append: '&nbsp;' %}
+  {% assign pattern = " " | append: preposition | append: " " %}
+  {% assign replacement = " " | append: preposition | append: '&nbsp;' %}
   {% assign c = c | replace: pattern, replacement %}
 {% endfor %}
 {{ c }}
-
