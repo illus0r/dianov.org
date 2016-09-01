@@ -8,29 +8,6 @@ body{
   font-size: $font-size-base;
 }
 
-h1, h2{
-  margin-top: 1.5em;
-  margin-bottom: 1em;
-  font-size: $font-size-big;
-  background: url(/media/img/hr.png) no-repeat left bottom;
-  @include media(max-width $mama-bear, 1) {
-    background: none;
-    text-align: center;
-  }
-}
-h2{
-  font-weight: normal;
-}
-
-a{
-  color: $col-primary;
-  &:active{
-    color: $col-primary-light;
-  }
-  &:visited{
-    color: $col-primary-dark;
-  }
-}
 
 .wrapper{
   @include outer-container;

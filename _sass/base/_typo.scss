@@ -1,3 +1,31 @@
+h1, h2{
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  font-size: $font-size-big;
+  background: url(/media/img/hr.png) no-repeat left bottom;
+  @include media(max-width $mama-bear, 1) {
+    background: none;
+    text-align: center;
+  }
+}
+h2{
+  font-weight: normal;
+}
+
+a{
+  text-decoration: none;
+  border-bottom: 1px solid rgba( $col-primary, .3 );
+  color: $col-primary;
+  &:active{
+    color: $col-primary-light;
+    border-bottom: 1px solid rgba( $col-primary-light, .3 );
+  }
+  &:visited{
+    color: $col-primary-dark;
+    border-bottom: 1px solid rgba( $col-primary-dark, .3 );
+  }
+}
+
 .caption{
   font-size: 0.75em;
   margin-top: -0.8em;
