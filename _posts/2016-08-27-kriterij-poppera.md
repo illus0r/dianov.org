@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Научное и важное
-permalink: /kriterij-poppera/
+permalink: /scientific-knowledge/
 ---
 Друзья часто радуют утверждениями вроде:
 
