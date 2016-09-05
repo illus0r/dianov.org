@@ -2,10 +2,8 @@
 permalink: /spreedsheet/
 ---
 
-Spreedsheet
+Spreedsheet 2
 ===
-
-<script src="https://spreadsheets.google.com/feeds/cells/1ZWDvaIhhbDpg_PJ5hGc1Ty3J1FWu6H4O3uNjbevRosI/od6/public/values?alt=json-in-script&callback=sheetLoaded"></script>
 
 <script>
 function sheetLoaded(spreadsheetdata) {
@@ -13,3 +11,5 @@ function sheetLoaded(spreadsheetdata) {
  console.log(spreadsheetdata);
 }
 </script>
+<script src="https://spreadsheets.google.com/feeds/cells/1ZWDvaIhhbDpg_PJ5hGc1Ty3J1FWu6H4O3uNjbevRosI/od6/public/values?alt=json-in-script&callback=sheetLoaded"></script>
+
