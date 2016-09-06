@@ -1,3 +1,6 @@
+p{
+  margin-top: 0;
+}
 h1, h2{
   margin-top: 1.5em;
   margin-bottom: 1em;
@@ -11,7 +14,6 @@ h1, h2{
 h2{
   font-weight: normal;
 }
-
 a{
   text-decoration: none;
   border-bottom: 1px solid rgba( $col-primary, .3 );
@@ -25,8 +27,44 @@ a{
     border-bottom: 1px solid rgba( $col-primary-dark, .3 );
   }
 }
-
 .caption{
   font-size: 0.75em;
   margin-top: -0.8em;
+}
+ul{
+  font-size: $font-size-base * 0.9;
+  list-style: none;
+  padding-left: 1.4em;
+  margin-top: -1em;
+  li{
+    margin-bottom: 0.5em;
+    /*position: relative;*/
+    /*&:before{*/
+      /*content: '-';*/
+      /*left: -0.7em;*/
+      /*position: absolute;*/
+    /*}*/
+  }
+}
+.headlight{
+  background: $col-primary-light;
+  padding: 1px 1em;
+}
+.phone, .email{
+  @include media(max-width $mama-bear, 1) {
+    text-align: center;
+  }    
+}
+.phone{
+  padding: 0 36px 0 50px;
+  height: 38px;
+  background: url(/media/img/phone.png) no-repeat;
+  font-size: $font-size-big;
+  display: inline-block;
+  p{
+    margin: 0;
+  }
+}
+.email{
+  display: inline-block;
 }

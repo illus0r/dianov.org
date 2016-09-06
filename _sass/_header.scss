@@ -13,6 +13,9 @@
     }
     position: relative;
     margin-bottom: 1em;
+    a{
+      border: none;
+    }
     &:after{
       content: ' ';
       position: absolute;
@@ -29,5 +32,10 @@
   }
   .name, .phone{
     font-weight: bold;
+  }
+  nav{
+    a{
+      border: none;
+    }
   }
 }

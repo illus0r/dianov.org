@@ -26,40 +26,6 @@ body{
   @include span-columns(8);
   @include omega;
   margin-top: 30px;
-  ul{
-    list-style: none;
-    padding-left: 1em;
-    li{
-      position: relative;
-      &:before{
-        content: '-';
-        left: -0.7em;
-        position: absolute;
-      }
-    }
-  }
-  .headlight{
-    background: $col-primary-light;
-    padding: 1px 1em;
-  }
-  .phone, .email{
-    @include media(max-width $mama-bear, 1) {
-      text-align: center;
-    }    
-  }
-  .phone{
-    padding: 0 36px 0 50px;
-    height: 38px;
-    background: url(/media/img/phone.png) no-repeat;
-    font-size: $font-size-big;
-    display: inline-block;
-    p{
-      margin: 0;
-    }
-  }
-  .email{
-    display: inline-block;
-  }
 }
 
 .contact-form{
