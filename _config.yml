@@ -28,6 +28,18 @@ defaults:
       permalink: /blog/:title/
       published: true
   
+staticman:
+  allowedFields: ['name', 'email', 'comment']
+  branch: 'gh-pages'
+  filename: entry{@timestamp}
+  format: 'yaml'
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: timestamp
+
+
 
 prose:
   # rooturl: "_posts"
