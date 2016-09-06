@@ -33,11 +33,11 @@ staticman:
   branch: 'gh-pages'
   filename: entry{@timestamp}
   format: 'yaml'
-  generatedFields:
-    date:
-      type: date
-      options:
-        format: timestamp
+#  generatedFields:
+#    date:
+#      type: date
+#      options:
+#        format: timestamp
 
 
 
