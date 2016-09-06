@@ -31,7 +31,7 @@ defaults:
 staticman:
   allowedFields: ['name', 'email', 'comment']
   branch: 'gh-pages'
-  path: '_data/comments/'
+  path: '_comments'
   filename: entry{@timestamp}
   format: 'yaml'
 #  generatedFields:
