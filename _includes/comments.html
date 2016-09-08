@@ -1,10 +1,10 @@
-<!--<form method="POST" action="https://api.staticman.net/v1/entry/illus0r/dianov.org/gh-pages">-->
-  <!--[> e.g. "2016-01-02-this-is-a-post" <]-->
-  <!--<input name="options[slug]" type="hidden" value="{{ page.slug }}">-->
+<form method="POST" action="https://api.staticman.net/v1/entry/illus0r/dianov.org/gh-pages">
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <input type="hidden" name="options[post-slug]" value="{{ page.title | slugify }}">
 
-  <!--<input name="fields[name]" type="text">-->
-  <!--<input name="fields[email]" type="email">-->
-  <!--<textarea name="fields[message]"></textarea>-->
+  <input name="fields[name]" type="text">
+  <input name="fields[email]" type="email">
+  <textarea name="fields[message]"></textarea>
 
-  <!--<button type="submit">Go!</button>-->
-<!--</form>-->
+  <button type="submit">Go!</button>
+</form>
