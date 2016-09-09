@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Mailchimp RSS-to-email test
+title: Mailchimp RSS-to-email test 2
 ---
 ![tmp-hair.jpg]({{site.baseurl}}/media/tmp-hair.jpg)
 
