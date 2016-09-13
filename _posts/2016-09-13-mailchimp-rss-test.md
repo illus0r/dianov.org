@@ -3,7 +3,7 @@ layout: post
 published: true
 title: mailchimp rss test
 ---
-![plane-sent.png](www.dianov.org/media/img/plane-sent.png)
+![plane-sent.png](http://dianov.org/media/img/plane-sent.png)
 
 Featured Images in RSS w/ Size and Position — WordPress Plugins
 https://wordpress.org/plugins/featured-images-for-rss-feeds/
