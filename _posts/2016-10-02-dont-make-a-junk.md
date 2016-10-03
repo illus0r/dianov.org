@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Не тратить время на мусор
 ---
 [Лекции Людвига Быстроновского](ludwigbistronovsky.ru/lectures/) вдохновили меня на поиск приёмчиков, которые повышают продуктивность на работе. 
