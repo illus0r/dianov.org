@@ -41,14 +41,14 @@ defaults:
 ##        format: timestamp
 
 staticman:
- allowedFields: ['name', 'title', 'description', 'rating']
+ allowedFields: ['name', 'email', 'comment']
  branch: gh-pages
  commitMessage: "Hey human, here is a new entry."
  filename: "entry{@timestamp}"
  format: yml
  moderation: false
- path: "_data/reviews"
- requiredFields: ['name', 'title', 'description', 'rating']
+ path: "_data/comments"
+ requiredFields: ['name', 'comment']
 
 prose:
   # rooturl: "_posts"
