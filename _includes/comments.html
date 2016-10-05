@@ -1,3 +1,17 @@
+<h2>Комментарии</h2>
+<div class="js-comments">
+	{% assign comments = site.data.comments | sort %}
+	
+	{% for commetn in comments reversed %}
+		{% assign commentData = comment[1] %}
+		<article class="comment mdl-card mdl-shadow--2dp">
+		  	<p><a href="mailto:{{ reviewData.email }}">{{ reviewData.name }}</a></p>
+	    	<p>{{ commentData.comment | markdownify }}<p>
+		  </div>
+		</article>
+	{% endfor %}
+</div>
+
 <form method="POST" action="https://api.staticman.net/v1/entry/illus0r/dianov.org/gh-pages">
   <input class="mdl-textfield__input" type="text" id="movie-form[name]" name="fields[name]"/>
   <label class="mdl-textfield__label" for="movie-form[name]">Имя и Фамилия</label>
