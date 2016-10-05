@@ -28,17 +28,27 @@ defaults:
       permalink: /blog/:title/
       published: true
   
+#staticman:
+#  allowedFields: ['name', 'email', 'comment']
+#  branch: 'gh-pages'
+#  path: '_comments/{options.post-slug}'
+#  filename: entry{@timestamp}
+#  format: 'yaml'
+##  generatedFields:
+##    date:
+##      type: date
+##      options:
+##        format: timestamp
+
 staticman:
-  allowedFields: ['name', 'email', 'comment']
-  branch: 'gh-pages'
-  path: '_comments/{options.post-slug}'
-  filename: entry{@timestamp}
-  format: 'yaml'
-#  generatedFields:
-#    date:
-#      type: date
-#      options:
-#        format: timestamp
+ allowedFields: ['name', 'title', 'description', 'rating']
+ branch: gh-pages
+ commitMessage: "Hey human, here is a new entry."
+ filename: "entry{@timestamp}"
+ format: yml
+ moderation: true
+ path: "_data/reviews"
+ requiredFields: ['name', 'title', 'description', 'rating']
 
 prose:
   # rooturl: "_posts"
