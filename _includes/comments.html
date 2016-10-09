@@ -1,21 +1,25 @@
 <h2>Комментарии</h2>
+{% assign post_slug = page.path | split:"/" | last | split:"." | first | slugify %}
+{{ post_slug | jsonify }}
 <div class="js-comments">
-	{% assign comments = site.data.comments | sort %}
-	
-	{% for commetn in comments reversed %}
-		{% assign commentData = comment[1] %}
-        <p><a href="mailto:{{ reviewData.email }}">{{ reviewData.name }}</a></p>
-        <p>{{ commentData.comment | markdownify }}<p>
-	{% endfor %}
+  {% if site.data.comments[post_slug] %}
+    {% assign comments = site.data.comments[post_slug] | sort %}
+    {% for comment in comments %}
+      {% assign commentData = comment[1] %}
+      <p><a href="mailto:{{ reviewData.email }}">{{ reviewData.name }}</a></p>
+      <p>{{ commentData.comment | markdownify }}<p>
+    {% endfor %}
+  {% endif %}
 </div>
 
 <form method="POST" action="https://api.staticman.net/v1/entry/illus0r/dianov.org/gh-pages">
-  <input class="mdl-textfield__input" type="text" id="movie-form[name]" name="fields[name]"/>
-  <label class="mdl-textfield__label" for="movie-form[name]">Имя и Фамилия</label>
-  <input class="mdl-textfield__input" type="text" id="movie-form[email]" name="fields[email]"/>
-  <label class="mdl-textfield__label" for="movie-form[email]">Почта</label>
-  <input class="mdl-textfield__input" type="text" id="movie-form[comment]" name="fields[comment]"/>
-  <label class="mdl-textfield__label" for="movie-form[comment]">Комментарий</label>
+  <input type="hidden" name="options[slug]" value="{{ post_slug }}">
+  <input class="mdl-textfield__input" type="text" id="comment-form[name]" name="fields[name]"/>
+  <label class="mdl-textfield__label" for="comment-form[name]">Имя и Фамилия</label>
+  <input class="mdl-textfield__input" type="text" id="comment-form[email]" name="fields[email]"/>
+  <label class="mdl-textfield__label" for="comment-form[email]">Почта</label>
+  <input class="mdl-textfield__input" type="text" id="comment-form[comment]" name="fields[comment]"/>
+  <label class="mdl-textfield__label" for="comment-form[comment]">Комментарий</label>
   <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
     Submit
   </button>
