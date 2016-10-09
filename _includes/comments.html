@@ -5,7 +5,7 @@
     {% assign comments = site.data.comments[post_slug] | sort %}
     {% for comment in comments %}
       {% assign commentData = comment[1] %}
-      <p><a href="mailto:{{ reviewData.email }}">{{ reviewData.name }}</a></p>
+      <p><a href="mailto:{{ commentData.email }}">{{ commentData.name }}</a>:</p>
       <p>{{ commentData.comment | markdownify }}<p>
     {% endfor %}
   {% endif %}
@@ -13,12 +13,12 @@
 
 <form method="POST" action="https://api.staticman.net/v1/entry/illus0r/dianov.org/gh-pages">
   <input type="hidden" name="options[slug]" value="{{ post_slug }}">
-  <input class="mdl-textfield__input" type="text" id="comment-form[name]" name="fields[name]"/>
-  <label class="mdl-textfield__label" for="comment-form[name]">Имя и Фамилия</label>
-  <input class="mdl-textfield__input" type="text" id="comment-form[email]" name="fields[email]"/>
-  <label class="mdl-textfield__label" for="comment-form[email]">Почта</label>
-  <input class="mdl-textfield__input" type="text" id="comment-form[comment]" name="fields[comment]"/>
-  <label class="mdl-textfield__label" for="comment-form[comment]">Комментарий</label>
+  <label for="comment-form[name]">Имя и фамилия</label>
+  <input type="text" id="comment-form[name]" name="fields[name]"/>
+  <label for="comment-form[email]">Почта</label>
+  <input type="text" id="comment-form[email]" name="fields[email]"/>
+  <label for="comment-form[comment]">Комментарий</label>
+  <textarea id="comment-form[comment]" name="fields[comment]" rows="10" style="width: 100%;"></textarea>
   <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
     Submit
   </button>

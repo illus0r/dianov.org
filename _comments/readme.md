@@ -1,1 +1,0 @@
-Staticman stores comments there
