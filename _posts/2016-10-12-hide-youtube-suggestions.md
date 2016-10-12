@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Hide youtube suggestions
+title: Убираем с ютуба рекомендованные ролики
 ---
 ![hide-youtube-suggestions.jpg]({{site.baseurl}}/media/hide-youtube-suggestions.jpg)
 
