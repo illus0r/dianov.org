@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Принципы совместной работы
 ---
 Расскажу о своих ожиданиях к исполнителям.
