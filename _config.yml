@@ -54,8 +54,8 @@ staticman:
       type: date
       options:
         format: "timestamp-seconds"
-  transforms:
-    email: md5
+  #transforms:
+  #  email: md5
    
 
 prose:
