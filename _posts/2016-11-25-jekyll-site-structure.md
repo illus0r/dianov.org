@@ -3,6 +3,30 @@ layout: post
 published: false
 title: jekyll-site-structure
 ---
-## A New Post
+  ▸ _data/
+  ▸ _events/
+  ▸ _includes/
+  ▸ _layouts/
+  ▸ _posts/
+  ▸ _sass/
+  ▸ _site/
+  ▸ _speakers/
+  ▸ _sponsors/
+  ▸ bower_components/
+  ▸ css/
+  ▸ img/
+  ▸ js/
+  ▸ pages/
+    2016-08-03-Sohail-riaz.md
+    2016-08-04-GitHub-Train-the-trainer.md
+    _config.yml
+    CNAME
+    favicon.ico
+    feed.xml
+    google.png
+    gulpfile.js
+    linkchecker_ignore_urls.txt
+    linkdin.png
+    README.md
+    twitter.png
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
