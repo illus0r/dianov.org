@@ -29,4 +29,4 @@ You will see the first file of the bunch. Now we going to make the same changes 
 6. `q` to stop writing macro.
 7. `@q` to run the macro. It will run untill `@q` command and then run itself.
 
-After script bumps into the last file, exception will appear. Done!
+Macro runs itself untill it bumps into a last file. Notification will appear. Done!
