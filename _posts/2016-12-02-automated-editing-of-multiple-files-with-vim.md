@@ -3,7 +3,7 @@ layout: post
 published: true
 title: Automated editing of multiple files with vim
 ---
-Somethmes you need to process a heap of files, selecting them by mask or by list. It's not common deal so I usually forget a sophisticated `argdo` syntax and do it manually.
+Sometimes you need to process a heap of files, selecting them by mask or by list. It's not common deal so I usually forget a sophisticated `argdo` syntax and do it manually.
 
 But it turned out to be easy! I use **mvim**, but it will work to vim and vi as well.
 
@@ -19,7 +19,7 @@ Or use a wildcard:
 mvim filename-wildcard-*.txt
 ```
 
-You will see the first file of the bunch.
+You will see the first file of the bunch. Now we going to make the same changes to every file using the recursive macro:
 
 1. `q` `q` `q` to empty `q` register. If you won't the previous macro from `q` register will run on step 5.
 2. `q` `q` to start recording the macro.
