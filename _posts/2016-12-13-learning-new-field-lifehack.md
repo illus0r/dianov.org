@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Разведка новой области знания
 ---
 В подкасте «Data stories» рассказали про способ больше узнать про то направление, в котором не разбираешься. Например, чтобы узнать больше про визуализацию данных, я гуглю: «[data visualisation lectures pdf](https://www.google.ru/search?q=data+visualisation+lectures+filetype:pdf)». Найдутся слайды презентаций. Смотрю их, но главное — ссылки на последних слайдах. Надо читать то, на что чаще ссылаются.
