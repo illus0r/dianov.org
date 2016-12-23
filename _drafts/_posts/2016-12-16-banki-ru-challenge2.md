@@ -1,7 +1,8 @@
 ---
+title: banki ru challenge
+date: '2016-12-16 00:00:00'
 layout: post
 published: true
-title: banki ru challenge
 ---
 На сайте banki.ru есть таблица с народным рейтингом банков.
 
