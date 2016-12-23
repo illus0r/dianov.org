@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: banki ru challenge
 ---
 На сайте banki.ru есть таблица с народным рейтингом банков.
