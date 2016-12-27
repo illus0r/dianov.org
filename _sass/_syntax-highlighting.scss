@@ -4,9 +4,9 @@
  */
 
 .highlighter-rouge{
-  font-family: monospace;
+  font-family: $font-monospace;
   *{
-    font-family: monospace;
+    font-family: $font-monospace;
   }
 }
 code.highlighter-rouge{

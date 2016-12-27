@@ -7,26 +7,10 @@
 
 
 
-$base-font-family: Georgia, Garamond, serif;
-$header-font-family: Helvetica, Arial, sans-serif; //unused
-$font-size-base:   18px;
-$font-size-big: $font-size-base * 1.5;
-/*$small-font-size:  $base-font-size * 0.875;*/
-$base-line-height: 1.4;
-
-$col-primary: #4983BD;
-$col-primary-dark: #4983BD;
-$col-primary-light: #F5FAFF;
-
-$_max-width: 800px;
-$max-width: 100%;
-
-$papa-bear: 960px;
-$mama-bear: 915px;
-$baby-bear: 320px;
 
 
-@import '_layout',
+@import 'base/vars',
+        '_layout',
         '_fullscreen',
         '_nav',
         '_header',
