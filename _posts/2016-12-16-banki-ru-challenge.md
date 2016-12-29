@@ -86,6 +86,11 @@ awk 'NR == 1 || NR % 100 == 0' banki.json > banki_s2.json
 
 ![banki-services.png]({{site.baseurl}}/media/banki-services.png)
 
+Придумываю что делать с длинными названиями:
+
+![banki-different-title-length.png]({{site.baseurl}}/media/banki-different-title-length.png)
+
+
 # Рисую количество отзывов
 
 Интересно увидеть, как число отзывов влияет на оценку и рейтинг. Любопытно посмотреть на наплывы отзывов, они могут говорить больших косяках в работе банка. Рисую график поступления новых отзывов в банк.
@@ -145,6 +150,13 @@ awk 'NR == 1 || NR % 100 == 0' banki.json > banki_s2.json
 Если у банка мало отзывов, график у него ступенчатый.
 
 Оценки со временем снижаются у всех. Может быть, банки в среднем стали хуже. Или люди критичнее. Или Банки.ру инзменили интерфейс написания отзыва.
+
+
+![banki-rating.png]({{site.baseurl}}/media/banki-rating.png)
+
+Рейтинг учитывает устаревание оценок, поэтому график плавнее, распределение ближе к гауссову.
+{:.caption}
+
 
 ![banki-complete-responses.png]({{site.baseurl}}/media/banki-complete-responses.png)
 
