@@ -174,7 +174,8 @@ awk 'NR == 1 || NR % 100 == 0' banki.json > banki_s2.json
 Интерактивная визуализация народных оценок банков
 {:.caption}
 
-![banki-timelapse.gif]({{site.baseurl}}/media/banki-timelapse.gif)
+![banki-timelapse2.gif]({{site.baseurl}}/media/banki-timelapse2.gif)
+
 
 Таймлапс работы
 {:.caption}
