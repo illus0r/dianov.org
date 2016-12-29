@@ -140,7 +140,7 @@ awk 'NR == 1 || NR % 100 == 0' banki.json > banki_s2.json
 
 Сама по себе средняя оценка не может быть критерием при выборе банка, важно ещё и количество отзывов. У Земского Банка твёрдая пятёрка, но всего три отзыва. Если выбирать между Тинькофф Банком и Модульбанком, то лучше остановиться на Тинькоффе, хоть и оценка у него ниже:
 
-![banki-compare-tinkoff.png]({{site.baseurl}}/media/banki-compare-tinkoff.png) ![baki-compare-modulbank.png]({{site.baseurl}}/media/baki-compare-modulbank.png)
+![banki-compare-tinkoff.png]({{site.baseurl}}/media/banki-compare-tinkoff.png){: width="auto"} ![baki-compare-modulbank.png]({{site.baseurl}}/media/baki-compare-modulbank.png){: width="auto"}
 
 
 Оценки со временем снижаются у всех. Может быть, банки в среднем стали хуже. Или люди критичнее. Или Банки.ру инзменили интерфейс написания отзыва.
