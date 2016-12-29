@@ -169,7 +169,7 @@ awk 'NR == 1 || NR % 100 == 0' banki.json > banki_s2.json
 
 Клик по графику слева прокручивает правую часть экрана так, чтобы превьюшка банка попала в зону видимости.
 
-![banki-gif.gif]({{site.baseurl}}/media/banki-gif.gif)
+![banki-gif.gif]({{site.baseurl}}/media/banki-gif.gif){:.border}
 
 Интерактивная визуализация народных оценок банков
 {:.caption}
