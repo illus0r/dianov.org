@@ -1,7 +1,9 @@
 .posts, .post{
   img{
     width: 100%;
-    border: 1px solid #eee;
+    &.border{
+      border: 1px solid #eee;
+    }
   }
   h2{
     background: none;
