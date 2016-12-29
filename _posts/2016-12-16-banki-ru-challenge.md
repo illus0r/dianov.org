@@ -115,7 +115,7 @@ awk 'NR == 1 || NR % 100 == 0' banki.json > banki_s2.json
  Вверху графики всех банков. Выбрали один — видим внизу оценки продуктов
  {:.caption}
 
-[В методике расчёта рейтинга banki.ru](http://www.banki.ru/static/bundles/Ratings/BaseRating/nr_methodology.doc) о продуктах не говорится. Иду на сайт и пишу тестовый отзыв.
+[В методике расчёта рейтинга](http://www.banki.ru/static/bundles/Ratings/BaseRating/nr_methodology.doc) о продуктах не говорится. Иду на сайт и пишу тестовый отзыв.
 
 ![banki-test-response.png]({{site.baseurl}}/media/banki-test-response.png)
 
