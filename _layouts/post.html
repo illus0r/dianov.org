@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 <div class="post">
 
@@ -12,6 +13,8 @@ layout: default
     {% include typograph.html content=content %}
   </article>
   
+  {% comment %}
   {% include comments.html %}
+  {% endcomment %}
 
 </div>
