@@ -13,7 +13,7 @@ date: '2016-12-16 00:00:00'
 <a href="#section-2">Поиск истории в данных</a><br>
 <a href="#section-3">Графики оценок</a><br>
 <a href="#section-4">Динамика отзывов</a><br>
-<a href="#section-5">Выбираю продукты</a><br>
+<a href="#section-5">Выбор банковских продуктов</a><br>
 <a href="#section-6">Улучшение графиков</a><br>
 <a href="#section-7">Выводы</a><br>
 <a href="#section-8">Планы на будущее</a>
