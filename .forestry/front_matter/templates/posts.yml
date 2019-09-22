@@ -45,7 +45,7 @@ fields:
   type: list
   hidden: false
 pages:
-- _posts/hello-world.md
+- _posts/2015-06-17-hello-world.md
 - _posts/2017-10-22-.md
 - _posts/2016-12-16-banki-ru-challenge.md
 - _posts/2016-10-14-parting.md

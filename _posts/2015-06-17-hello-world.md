@@ -10,4 +10,4 @@ redirect_from: ''
 tags: []
 
 ---
-test
+test![]({{ site.baseurl }}/forestryio/images/banki-data-downloading.gif)
