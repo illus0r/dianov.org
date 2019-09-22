@@ -1,0 +1,69 @@
+---
+label: Posts
+hide_body: false
+fields:
+- name: title
+  default: hello world
+  label: Title
+  type: text
+  hidden: false
+- name: date
+  default: '2015-06-17T00:00:00+00:00'
+  label: Date
+  type: datetime
+  hidden: false
+- name: layout
+  default: post
+  label: Layout
+  type: text
+  hidden: false
+- name: categories
+  default:
+  - jekyll
+  label: Categories
+  type: list
+  hidden: false
+- name: published
+  default: true
+  label: Published
+  type: boolean
+  hidden: false
+- name: permalink
+  default: "/ideal-blog/"
+  label: Permalink
+  type: text
+  hidden: false
+- name: redirect_from
+  default: "/blog-moej-mechty/"
+  label: Redirect from
+  type: text
+  hidden: false
+- name: tags
+  default:
+  - Управление собой
+  label: Tags
+  type: list
+  hidden: false
+pages:
+- _posts/hello-world.md
+- _posts/2017-10-22-.md
+- _posts/2016-12-16-banki-ru-challenge.md
+- _posts/2016-10-14-parting.md
+- _posts/2016-10-12-hide-youtube-suggestions.md
+- _posts/2016-09-09-survivorship-bias.md
+- _posts/2016-09-07-how-to-read-books.md
+- _posts/2016-09-03-layout-switcher.md
+- _posts/2016-08-27-scientific-knowledge.md
+- _posts/2016-08-27-blog-moej-mechty.md
+- _posts/2016-01-25-jekyll-include-exclude.md
+- _posts/2015-10-31-jekyll-nice-urls.markdown
+- _posts/2015-08-10-scroll-with-no-hole.md
+- _posts/2015-06-17-hello.markdown
+- _posts/2016-11-11-early-to-rise.md
+- _posts/2016-11-17-principles-of-collaboration.md
+- _posts/2016-10-05-fresh-lifehack.md
+- _posts/2016-12-02-automated-editing-of-multiple-files-with-vim.md
+- _posts/2016-10-02-dont-make-a-junk.md
+- _posts/2016-10-06-learning-sketch.md
+- _posts/2016-11-25-jekyll-site-structure.md
+- _posts/2016-08-28-system.md
