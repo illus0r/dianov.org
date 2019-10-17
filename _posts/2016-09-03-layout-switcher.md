@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Переключение раскладки
+title: Переключение  раскладки
 tags:
   - лайфхак
 ---

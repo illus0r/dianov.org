@@ -77,7 +77,6 @@ defaults:
 Шаблоны
 ---
 В эти файлы заворачивается содержимое документов, получается ХТМЛ страница. Тег {% raw %}{{ content }}{% endraw %} в шаблоне печатает содержимое документа, который его использует. Какой шаблон документу использовать, написано у документа во фронтматере. Шалоны могут использовать другие шаблоны.
-These are the templates that wrap posts. Layouts are chosen on a post-by-post basis in the YAML Front Matter, which is described in the next section. The liquid tag  {{ content }} is used to inject content into the web page.
 
 
 Переменные

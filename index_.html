@@ -1,0 +1,24 @@
+---
+layout: default
+permalink: /p/
+title: ivan@dianov.org
+---
+
+<div class="home">
+
+  <div class="posts">
+    {% for post in site.posts %}
+      <div class="post">
+        <h1>
+          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+        </h1>
+        <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+        {% include typograph.html content=post.excerpt %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <p class="rss-subscribe">Подпишитесь на <a href="{{ "/feed.xml" | prepend: site.baseurl }}">РСС</a></p>
+
+</div>
+

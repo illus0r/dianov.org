@@ -1,21 +1,27 @@
 .header{
-  @include media(max-width $mama-bear, 1) {
-    @include span-columns(1);
-    /*text-align: left;*/
-    margin-top: 10px;
-  }
-  @include span-columns(4);
-  margin-top: 60px;
-  text-align: center;
-  .avatar{
-    @include media(max-width $mama-bear, 1) {
-      /*margin-left: -15px;*/
-    }
-    position: relative;
-    margin-bottom: 1em;
+	.contacts{
+		text-align: left;
     a{
       border: none;
+			&:hover span.email{
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: white;
+			}
     }
+	}
+  //@include media(max-width $mama-bear, 1) {
+    //@include span-columns(1);
+    //[>text-align: left;<]
+    //margin-top: 10px;
+  //}
+  //@include span-columns(4);
+  //margin-top: 60px;
+  .avatar{
+    //@include media(max-width $mama-bear, 1) {
+      //[>margin-left: -15px;<]
+    //}
+    position: relative;
+    margin-bottom: 1em;
     &:after{
       content: ' ';
       position: absolute;
@@ -25,9 +31,9 @@
       right: 0;
       background: url(/media/img/photo-frame.png) center top no-repeat;
       pointer-events: none;
-      @include media(max-width $mama-bear, 1) {
-        /*background-position: left top;*/
-      }
+      //@include media(max-width $mama-bear, 1) {
+        //[>background-position: left top;<]
+      //}
     }
   }
   .name, .phone{

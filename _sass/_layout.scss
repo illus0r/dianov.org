@@ -1,53 +1,52 @@
 *{
-  font-family: $base-font-family;
-  line-height: $base-line-height;
 }
 
 body{
   margin: 0;
   font-size: $font-size-base;
+	background: $col-bg;
+	padding: 32px;
 }
 
 
 .wrapper{
-  @include outer-container;
-  @include media(max-width $mama-bear, 1) {
-    padding: 0 1em;
-  }
-  max-width: $_max-width;
+  //@include outer-container;
+  //@include media(max-width $mama-bear, 1) {
+    //padding: 0 1em;
+  //}
 }
 
 
 .page-content{
-  @include media(max-width $mama-bear, 1) {
-    @include span-columns(1);
-    margin-top: 0;
-  }
-  @include span-columns(8);
-  @include omega;
+  //@include media(max-width $mama-bear, 1) {
+    //@include span-columns(1);
+    //margin-top: 0;
+  //}
+  //@include span-columns(8);
+  //@include omega;
   margin-top: 30px;
 }
 
 .contact-form{
   margin-top: 30px;
-  @include outer-container;
+  //@include outer-container;
   background: $col-primary-light;
   form{
-    @include media(max-width $mama-bear, 1) {
-      @include span-columns(1);
-      @include shift(0);
-      padding-bottom: 30px;
-    }
-    @include span-columns(8);
-    @include shift(4);
+    //@include media(max-width $mama-bear, 1) {
+      //@include span-columns(1);
+      //@include shift(0);
+      //padding-bottom: 30px;
+    //}
+    //@include span-columns(8);
+    //@include shift(4);
     padding: 30px 0 100px;
     position: relative;
-    max-width: $_max-width;
+    max-width: $site-width;
     /*overflow: hidden;*/
     &:after{
-      @include media(max-width $mama-bear, 1) {
-        display: none;
-      }
+      //@include media(max-width $mama-bear, 1) {
+        //display: none;
+      //}
       bottom: 40px;
       right: -50px;
       /*left: 184px;*/

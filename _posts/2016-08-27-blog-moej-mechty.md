@@ -3,7 +3,6 @@ layout: post
 published: true
 title: Идеальный движок блога
 permalink: /ideal-blog/
-redirect_from: /blog-moej-mechty/
 ---
 Идеальный блог:
 

@@ -1,17 +1,17 @@
-$base-font-family: Georgia, Garamond, serif;
+
+$base-font-family: 'Open Sans', sans-serif;
+$header-font-family: 'Open Sans Condensed', sans-serif; //not used
+@supports (font-variation-settings: normal) {
+	$base-font-family: "Inter var", sans-serif;
+}
 $font-monospace: "Ubuntu Mono", monospace;
-$header-font-family: Helvetica, Arial, sans-serif; //unused
 $font-size-base:   18px;
 $font-size-big: $font-size-base * 1.5;
 $base-line-height: 1.4;
 
+$col-bg: #444;
 $col-primary: #4983BD;
 $col-primary-dark: #4983BD;
 $col-primary-light: #F5FAFF;
 
-$_max-width: 800px;
-$max-width: 100%;
-
-$papa-bear: 960px;
-$mama-bear: 915px;
-$baby-bear: 320px;
+$site-width: 800px;

@@ -1,0 +1,40 @@
+---
+layout: default
+title: ivan@dianov.org
+---
+
+<div class="home">
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      ↑ Позднее
+    </a>
+  {% endif %}
+</div>
+
+  <div class="posts">
+  {% for post in paginator.posts %}
+      <div class="post">
+        <h1 class="post-title">
+          <a class="post-link" href="{{ post.url }}">
+          {% assign header_parts = post.title | split: "  "%}
+          {% for h in header_parts %}
+            <span>{{ h }}</span>
+          {% endfor %}
+          </a>
+        </h1>
+        
+        {% include typograph.html content=post.content %}
+      </div>
+  {% endfor %}
+  </div>
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">↓ Ранее</a>
+  {% endif %}
+
+  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+
+</div>
+

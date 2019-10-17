@@ -1,2 +1,13 @@
 <footer class="site-footer">
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+<script src="/js/logo.js"></script>
+{% comment %}
+fitting headers
+{% endcomment %}
+<script src="/js/fittext.js"></script>
+<script src="/js/fitty.js"></script>
+<script>
+  //window.fitText(document.querySelector(".fittext"));
+  fitty('.post-title span', {minSize: 1, maxSize:9999});
+</script>

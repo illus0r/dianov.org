@@ -1,43 +1,110 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+//@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:300,300i,400,400i,800,800i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+
+body{
+  font-family: $base-font-family;
+  //line-height: $base-line-height;
+	font-size: 20px;
+	//line-height: 140%;
+	font-weight: 200;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+*{
+	color: white;
+}
 
 p{
   margin-top: 0;
+	margin-bottom: 0.7em;
 }
-h1, h2{
-  margin-top: 1.5em;
-  margin-bottom: 1em;
-  font-size: $font-size-big;
-  background: url(/media/img/hr.png) no-repeat left bottom;
-  @include media(max-width $mama-bear, 1) {
-    background: none;
-    text-align: center;
+h1{
+  font-family: $header-font-family;
+  max-width: 100%;
+  text-transform: uppercase;
+  line-height: 0.78;
+  text-shadow: 0 0px 16px rgba(0,0,0,0.4);
+  span{
+    display: inline-block;
+    white-space: nowrap;
+  }
+  a{
+    display: inline-block;
+    width: 100%;
+    border: none;
+    position: relative;
+    transition: top 0.3s;
+    top: 0;
+    opacity: 1;
+    &:hover{
+      background: none;
+      top: -5px;
+    }
   }
 }
 h2{
-  font-weight: normal;
+  background: none;
+  //margin-bottom: 0;
+}
+.quote{
+  @include post-block-margins;
+  background: rgba(256,256,256, 0.1);
+  border-radius: 4px;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  padding: 26px 15px;
+  text-align: center;
+}
+blockquote{
+  @include post-block-margins;
+  border-left: 3px solid rgba(256,256,256,0.6);
+  box-sizing: border-box;
+  font-style: italic;
+  opacity: 0.6;
+  padding-left: 20px;
+}
+h2{
+	font-size: 1.5em;
+  font-weight: bold;
+}
+h3{
+	font-size: 1em;
+  font-weight: bold;
+	margin: 0;
 }
 a{
   text-decoration: none;
-  border-bottom: 1px solid rgba( $col-primary, .3 );
-  color: $col-primary;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.5);
+  opacity: 0.9;
+  //color: $col-primary;
   &:active{
-    color: $col-primary-light;
-    border-bottom: 1px solid rgba( $col-primary-light, .3 );
   }
   &:visited{
-    color: $col-primary-dark;
-    border-bottom: 1px solid rgba( $col-primary-dark, .3 );
   }
+	&:hover{
+		//border-bottom: 1px solid rgba(256, 256, 256, 1);
+		//border-bottom: none;
+    opacity: 1;
+		//background: linear-gradient(to right,#FFF504,#80FF00);
+    //text-shadow: none;
+    //-webkit-background-clip: text;
+    //-webkit-text-fill-color: transparent;
+	}
 }
 .caption{
   font-size: 0.75em;
-  margin-top: -0.8em;
+  margin-top: -40px;
+	line-height: 1.2em;
+	margin-bottom: 40px;
+}
+ol{
+  padding-left: 2em;
 }
 ul{
-  font-size: $font-size-base * 0.9;
   list-style: none;
   padding-left: 1.4em;
-  margin-top: -1em;
+}
+ul, ol{
   li{
     margin-bottom: 0.5em;
     /*position: relative;*/
@@ -53,9 +120,9 @@ ul{
   padding: 1px 1em;
 }
 .phone, .email{
-  @include media(max-width $mama-bear, 1) {
-    text-align: center;
-  }    
+  //@include media(max-width $mama-bear, 1) {
+    //text-align: center;
+  //}    
 }
 .phone{
   padding: 0 36px 0 50px;

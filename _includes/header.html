@@ -1,30 +1,23 @@
-  <div class="avatar">
-    <a href="{{ site.url }}">
-      <img src="{{ site.url }}/media/img/photo.png" alt="">
-    </a>
-  </div>
   <div class="contacts">
-    <div class="name">Дианов Иван</div>
-    <div class="email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+    <!--<div class="name">Дианов Иван</div>-->
+		<a href="{{ site.url }}">
+			<span id="logo"></span>
+			<span class="email">{{ site.email }}</span>
+		</a>
   </div>
   <nav>
 
-    {% for node in site.pages reversed %}
-      {% if node.title %}
-      <!--<a class="page-link" -->
-        <!--{% if page.url == node.url %} -->
-        <!--class="active" -->
-        <!--{% endif %} -->
-        <!--href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>-->
-        {% if page.url == node.url %}
-          <li class="active">
-            <a href="{{node.url}}" class="active">{{node.title}}</a>
-          </li>
-        {% else %}
-          <li>
-            <a href="{{node.url}}">{{node.title}}</a>
-          </li>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
+    <!--{% for node in site.pages reversed %}-->
+      <!--{% if node.title %}-->
+        <!--{% if page.url == node.url %}-->
+          <!--<li class="active">-->
+            <!--<a href="{{node.url}}" class="active">{{node.title}}</a>-->
+          <!--</li>-->
+        <!--{% else %}-->
+          <!--<li>-->
+            <!--<a href="{{node.url}}">{{node.title}}</a>-->
+          <!--</li>-->
+        <!--{% endif %}-->
+      <!--{% endif %}-->
+    <!--{% endfor %}-->
   </nav>

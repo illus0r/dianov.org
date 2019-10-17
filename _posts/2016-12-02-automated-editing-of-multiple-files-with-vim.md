@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Automated editing of multiple files with vim
+title: Automated  editing of multiple files with vim
 ---
 Sometimes you need to process a heap of files, selecting them by mask or by list. It's not common deal so I usually forget a sophisticated `argdo` syntax and do it manually.
 

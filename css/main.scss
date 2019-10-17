@@ -2,18 +2,20 @@
 ---
 
 @charset "utf-8";
-@import 'bourbon/bourbon';
-@import 'neat/neat';
+//@import 'bourbon/bourbon';
+//@import 'neat/neat';
 
 
 
 
 
 @import 'base/vars',
+        'base/mixins',
         '_layout',
         '_fullscreen',
         '_nav',
         '_header',
+        '_logo',
         'base/typo',
         'pages/post',
         'syntax-highlighting'

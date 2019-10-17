@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Свежий кефир из дальнего ряда
+title: Свежий кефир  из дальнего ряда
 ---
 ![Свежий кефир из дальнего ряда]({{site.baseurl}}/media/fresh-lifehack.png)
 
