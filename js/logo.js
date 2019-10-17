@@ -5,7 +5,7 @@ let myp5 = new p5(( s ) => {
 
   s.draw = () => {
     s.background("#FFFFFF00")
-    s.stroke(256)
+    s.stroke("#14113c")
     s.strokeWeight(5)
     s.noFill()
     s.scale(2)
@@ -16,7 +16,7 @@ let myp5 = new p5(( s ) => {
     s.vertex(0,10)
     s.vertex(12,10)
     s.endShape()
-    s.fill(256)
+    s.fill("#14113c")
     s.noStroke()
     s.ellipse(0,  -10, 7, 7) 
     s.ellipse(10, -9, 5, 5) 

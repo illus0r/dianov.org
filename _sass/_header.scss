@@ -1,13 +1,25 @@
 .header{
+
+	#logo{
+		width: 32px;
+		height: 32px;
+		display: inline-block;
+		vertical-align: -8%;
+		canvas{
+			display: inline-block;
+			width: 100% !important;
+			height: 100% !important;
+		}
+	}
+
 	.contacts{
 		text-align: left;
     a{
-      border: none;
-			&:hover span.email{
-				-webkit-background-clip: text;
-				-webkit-text-fill-color: white;
-			}
-    }
+		border: none;
+		//&:hover span.email{
+			//-webkit-background-clip: text;
+			//-webkit-text-fill-color: white;
+		}
 	}
   //@include media(max-width $mama-bear, 1) {
     //@include span-columns(1);

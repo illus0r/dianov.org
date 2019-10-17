@@ -7,9 +7,12 @@ $header-font-family: 'Open Sans Condensed', sans-serif; //not used
 $font-monospace: "Ubuntu Mono", monospace;
 $font-size-base:   18px;
 $font-size-big: $font-size-base * 1.5;
-$base-line-height: 1.4;
+//$base-line-height: 1.4;
+$body-paddings: 32px;
+$biggest-width: 1200px;
 
-$col-bg: #444;
+$color-bg: ivory;
+$color-text: #14113c;
 $col-primary: #4983BD;
 $col-primary-dark: #4983BD;
 $col-primary-light: #F5FAFF;

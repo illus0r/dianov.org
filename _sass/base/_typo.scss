@@ -4,77 +4,21 @@
 
 body{
   font-family: $base-font-family;
-  //line-height: $base-line-height;
-	font-size: 20px;
-	//line-height: 140%;
-	font-weight: 200;
-	text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	font-size: 24px;
+	font-weight: 400;
+	//text-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
 *{
-	color: white;
+	color: $color-text;
 }
 
 p{
   margin-top: 0;
 	margin-bottom: 0.7em;
 }
-h1{
-  font-family: $header-font-family;
-  max-width: 100%;
-  text-transform: uppercase;
-  line-height: 0.78;
-  text-shadow: 0 0px 16px rgba(0,0,0,0.4);
-  span{
-    display: inline-block;
-    white-space: nowrap;
-  }
-  a{
-    display: inline-block;
-    width: 100%;
-    border: none;
-    position: relative;
-    transition: top 0.3s;
-    top: 0;
-    opacity: 1;
-    &:hover{
-      background: none;
-      top: -5px;
-    }
-  }
-}
-h2{
-  background: none;
-  //margin-bottom: 0;
-}
-.quote{
-  @include post-block-margins;
-  background: rgba(256,256,256, 0.1);
-  border-radius: 4px;
-  font-size: 1.5em;
-  line-height: 1.2em;
-  padding: 26px 15px;
-  text-align: center;
-}
-blockquote{
-  @include post-block-margins;
-  border-left: 3px solid rgba(256,256,256,0.6);
-  box-sizing: border-box;
-  font-style: italic;
-  opacity: 0.6;
-  padding-left: 20px;
-}
-h2{
-	font-size: 1.5em;
-  font-weight: bold;
-}
-h3{
-	font-size: 1em;
-  font-weight: bold;
-	margin: 0;
-}
 a{
   text-decoration: none;
-  border-bottom: 1px solid rgba(256, 256, 256, 0.5);
+  border-bottom: 1px solid rgba($color-text, 0.5);
   opacity: 0.9;
   //color: $col-primary;
   &:active{
@@ -91,9 +35,39 @@ a{
     //-webkit-text-fill-color: transparent;
 	}
 }
+h2{
+  background: none;
+  //margin-bottom: 0;
+}
+.quote{
+  @include post-block-margins;
+  background: rgba($color-text, 0.1);
+  border-radius: 4px;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  padding: 26px 15px;
+  text-align: center;
+}
+blockquote{
+  @include post-block-margins;
+  border-left: 3px solid rgba($color-text, 0.2);
+  box-sizing: border-box;
+  font-style: italic;
+  opacity: 0.6;
+  padding-left: 20px;
+}
+h2{
+	font-size: 1.5em;
+  font-weight: bold;
+}
+h3{
+	font-size: 1em;
+  font-weight: bold;
+	margin: 0;
+}
 .caption{
   font-size: 0.75em;
-  margin-top: -40px;
+  margin-top: -30px;
 	line-height: 1.2em;
 	margin-bottom: 40px;
 }

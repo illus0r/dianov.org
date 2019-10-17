@@ -4,8 +4,8 @@
 body{
   margin: 0;
   font-size: $font-size-base;
-	background: $col-bg;
-	padding: 32px;
+	background: $color-bg;
+	padding: $body-paddings;
 }
 
 
