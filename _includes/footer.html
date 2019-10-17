@@ -1,4 +1,8 @@
 <footer class="site-footer">
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">↓ Ранее</a>
+  {% endif %}
+  <a class="rss" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
 <script src="/js/logo.js"></script>

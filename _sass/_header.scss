@@ -1,59 +1,25 @@
 .header{
+	a{
+		border: none;
+	}
 
 	#logo{
 		width: 32px;
 		height: 32px;
 		display: inline-block;
-		vertical-align: -8%;
+		//vertical-align: -6%;
 		canvas{
 			display: inline-block;
 			width: 100% !important;
 			height: 100% !important;
+			margin-top: -10px;
+			position: relative;
+			top: 1px;
 		}
 	}
 
-	.contacts{
-		text-align: left;
-    a{
-		border: none;
-		//&:hover span.email{
-			//-webkit-background-clip: text;
-			//-webkit-text-fill-color: white;
-		}
+	.email{
+		float: right;
 	}
-  //@include media(max-width $mama-bear, 1) {
-    //@include span-columns(1);
-    //[>text-align: left;<]
-    //margin-top: 10px;
-  //}
-  //@include span-columns(4);
-  //margin-top: 60px;
-  .avatar{
-    //@include media(max-width $mama-bear, 1) {
-      //[>margin-left: -15px;<]
-    //}
-    position: relative;
-    margin-bottom: 1em;
-    &:after{
-      content: ' ';
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: url(/media/img/photo-frame.png) center top no-repeat;
-      pointer-events: none;
-      //@include media(max-width $mama-bear, 1) {
-        //[>background-position: left top;<]
-      //}
-    }
-  }
-  .name, .phone{
-    font-weight: bold;
-  }
-  nav{
-    a{
-      border: none;
-    }
-  }
+
 }

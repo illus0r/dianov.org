@@ -1,23 +1,9 @@
-  <div class="contacts">
-    <!--<div class="name">Дианов Иван</div>-->
+  <div class="header">
 		<a href="{{ site.url }}">
 			<span id="logo"></span>
-			<span class="email">{{ site.email }}</span>
+      <span id="title">{{ site.title }}</span>
+		</a>
+		<a class="email" href="mailto:{{ site.email }}">
+      <span>{{ site.email }}</span>
 		</a>
   </div>
-  <nav>
-
-    <!--{% for node in site.pages reversed %}-->
-      <!--{% if node.title %}-->
-        <!--{% if page.url == node.url %}-->
-          <!--<li class="active">-->
-            <!--<a href="{{node.url}}" class="active">{{node.title}}</a>-->
-          <!--</li>-->
-        <!--{% else %}-->
-          <!--<li>-->
-            <!--<a href="{{node.url}}">{{node.title}}</a>-->
-          <!--</li>-->
-        <!--{% endif %}-->
-      <!--{% endif %}-->
-    <!--{% endfor %}-->
-  </nav>

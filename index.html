@@ -30,11 +30,6 @@ title: ivan@dianov.org
   {% endfor %}
   </div>
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">↓ Ранее</a>
-  {% endif %}
-
-  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
 
 </div>
 
