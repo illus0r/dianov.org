@@ -1,6 +1,6 @@
 ---
 title: Как сделать из своего имени  поплавок
-permalink: /flottery/
+permalink: /floattery/
 ---
 
 <video width="1441" style="max-width: 100%;" loop="" autoplay=""><source src="{{site.baseurl}}/media/floattery.mp4" type="video/mp4"></video>
