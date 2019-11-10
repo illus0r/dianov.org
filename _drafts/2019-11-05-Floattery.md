@@ -3,7 +3,7 @@ title: Как сделать из своего имени  поплавок
 permalink: /floattery/
 ---
 
-<video width="1441" style="max-width: 100%;" loop="" autoplay=""><source src="{{site.baseurl}}/media/floattery.mp4" type="video/mp4"></video>
+<video width="1441" style="max-width: 100%;" loop autoplay><source src="{{site.baseurl}}/media/floattery.mp4" type="video/mp4"></video>
 
 [В Парке Интуиции](https://intuition.team/park) мы с ребятами сделали маленький клёвый проект. Не спрашивайте, зачем он этому миру. Давайте считать, что это не сервис, а искусство.
 
