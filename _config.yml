@@ -17,6 +17,13 @@ plugins:
 paginate: 10
 paginate_path: "/:num/"
 
+# enable drafts processing
+# according to https://www.aravindiyer.com/tech/jekyll-drafts-shareable-links/
+collections:
+  drafts: 
+    output: true
+
+
 defaults:
   - 
     scope:
@@ -30,6 +37,16 @@ defaults:
       layout: post
       permalink: /:title/
       published: true
+  - 
+    scope:
+      path: ""
+      type: drafts
+    values:
+      comments: false
+      share: false
+      related: false
+      sitemap: false  #To hide from sitemap.xml
+      noindex: true   #To hide from robots and crawlers
   
 #staticman:
 #  allowedFields: ['name', 'email', 'comment']

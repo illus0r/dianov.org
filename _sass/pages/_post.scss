@@ -48,7 +48,7 @@
 			}
 		}
 	}
-  img, iframe{
+  img, iframe, video{
     //@include post-block-margins; // too small
     @include post-block-margins;
 		//margin-bottom: 26px;
@@ -67,8 +67,14 @@
       //border: 1px solid #eee;
     //}
   }
+  img{
+
+  }
   iframe{
     width: $site-width;
+  }
+  video{
+    background: none;
   }
   //.post-meta{
     //opacity: 0.2;
