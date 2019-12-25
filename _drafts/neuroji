@@ -1,0 +1,7 @@
+На серваке DigitalOcean
+nohup jupyter nonohup jupyter notebook --allow-root --port 8080 &
+
+По ССШ
+ssh -L 8080:localhost:8080 root@64.225.28.54
+
+После чего ноутбук отрывается на локалхосте:8080
