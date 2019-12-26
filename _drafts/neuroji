@@ -5,3 +5,137 @@ nohup jupyter nonohup jupyter notebook --allow-root --port 8080 &
 ssh -L 8080:localhost:8080 root@64.225.28.54
 
 После чего ноутбук отрывается на локалхосте:8080
+
+Код на диджитал оушне
+```
+# same, but DCGAN and in color
+%matplotlib inline
+
+import telegram
+from telegram.ext import Updater, CommandHandler
+
+from PIL import Image, ImageDraw
+from random import randrange
+from io import BytesIO
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+from keras.layers import Dense, Flatten, Reshape
+from keras.layers.advanced_activations import LeakyReLU
+from keras.models import Sequential
+from keras.optimizers import Adam
+from keras.models import model_from_json
+
+# import threading
+import time
+import sys
+
+
+
+def sample_images(number=1):
+    global bot
+    global model
+    
+    print("Hello, World!")
+    
+    z = np.random.normal(0, 1, (number, z_dim))
+
+    gen_imgs = model.predict(z)
+    print('Generated {} images'.format(number))
+    gen_imgs = 0.5 * gen_imgs + 0.5
+
+    clear()
+
+    for i in range(number):
+        im_ar = (gen_imgs[i, :, :, :]) * 256.
+        pil_im = Image.fromarray(im_ar.astype('uint8'), 'RGBA')
+        pil_im = pil_im.resize((512,512), Image.NEAREST)
+        bio = BytesIO()
+        bio.name = 'image.png'
+        pil_im.save(bio, 'PNG')
+        #bio.seek(0)
+        #bot.send_photo('@zbottesting', photo=bio) # kind of debug. Printing photo to chat is not necessary
+        bio.seek(0)
+        bot.add_sticker_to_set(user_id = 115178271, 
+                               name = 'neuroji_by_neuroji_bot',
+                               png_sticker = bio,
+                               emojis = '😶')
+    bot.send_message(chat_id='@zbottesting', text='{} neurojis added!'.format(number))
+
+# def set_(update, context):
+    # global bot
+    # update.message.reply_text('1')
+    # bot.createNewStickerSet(user_id = 115178271, # FIXME change to your id. Id can be learned from @userinfobot
+                   # name = 'neuroji_by_neuroji_bot', # this should end with `_by_botname`
+                   # title = 'Neuroji',
+                   # png_sticker = 'https://upload.wikimedia.org/wikipedia/commons/6/63/Icon_Bird_512x512.png',
+                   # emojis = '🐦')
+    # update.message.reply_text('Set added')
+
+    
+    
+# def updateStickers(context: telegram.ext.CallbackContext):
+#     global number
+#     print('job')
+#     sample_images(number)
+    
+def clear():
+    global bot
+    stickers = bot.get_sticker_set('neuroji_by_neuroji_bot').stickers
+    for s in stickers:
+        #print('deleting ' + s.file_id)
+        bot.delete_sticker_from_set(s.file_id)
+
+z_dim = 100 # Size of the noise vector, used as input to the Generator
+number = 80
+
+# load json and create model
+json_file = open('model_17500.json', 'r')
+model_json = json_file.read()
+json_file.close()
+model = model_from_json(model_json)
+model.load_weights("model_17500.h5")
+print("Loaded model from disk")
+# model._make_predict_function()
+# graph = tf.compat.v1.get_default_graph()
+
+bot = telegram.Bot('851931714:AAH93JjP6_9pQugSaLFy6-ZdzNtY71TGrhg')  #FIXME paste your token here
+updater = Updater(bot = bot, use_context=True)
+j = updater.job_queue
+
+# job_minute = j.run_repeating(updateStickers, interval=30, first=5)#, 
+#                              context={
+# #                                  'model':loaded_model, 
+#                                  'number':number,
+#                              }
+#                             )
+
+
+# updater.dispatcher.add_handler(CommandHandler('set', set_))
+updater.dispatcher.add_handler(CommandHandler('clear', clear))
+
+
+def recurring_job():
+    #     threading.Timer(60.0, recurring_job).start()
+    try:
+        sample_images(number)
+    except: # catch *all* exceptions
+        e = sys.exc_info()[0]
+        bot.send_message(chat_id='@zbottesting', text='{}'.format(e))
+    time.sleep(60*5)
+    recurring_job()
+    
+recurring_job()
+
+# print('Kicked off')
+# updater.start_polling()
+# updater.idle()
+```
+
+Рядом тут лежат файлы сетки:
+```model_17500.h5
+model_17500.json```
+
+Файлы эти генерил на колабе
+https://colab.research.google.com/drive/12B4BpvVH_Wo20xLWpDW5jADhYHDEuEIY#scrollTo=VBa6Ggebt5BR
