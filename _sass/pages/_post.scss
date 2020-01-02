@@ -68,6 +68,10 @@
     //}
   }
   img{
+    &.transparent{
+      background: none;
+      box-shadow: none;
+    }
 
   }
   iframe{
