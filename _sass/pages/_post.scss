@@ -67,6 +67,10 @@
       //border: 1px solid #eee;
     //}
   }
+	iframe[title=Disqus]{
+    box-shadow: 0 0 32px 32px #fff;
+    margin-top: 128px;
+	}
   img{
     &.transparent{
       background: none;
